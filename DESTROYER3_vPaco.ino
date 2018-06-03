@@ -1,5 +1,13 @@
-//AL COMIENZO DEL PROGRAMA DEFINIMOS EN QUE PINES IRAN CONECTADOS LOS DISTINTOS DISPOSITIVOS
+/*ROBOT DE SUMO CON ULTRASONIDOS. REVISADO POR FSANCHEZGUZMAN
+Configurado el setup según las reglas de Robocampeones. Espera 5 segundos y retrocede buscando la línea negra de borde. 
+El DOJO de combate debe ser blanco con línea de borde negra.
+Este robot debe tener dos sensores IR y un sensor HC-SR04 de ultrasonidos.
+Además, funciona con servomotores de 360º.
+*/
+//Basado en el código de programación by DioniSantidrian is licensed under the Creative Commons - Attribution - Non-Commercial license.
+//visit https://www.thingiverse.com/thing:2835619 for more information
 
+//AL COMIENZO DEL PROGRAMA DEFINIMOS EN QUE PINES IRAN CONECTADOS LOS DISTINTOS DISPOSITIVOS
 const int sensorD = 4;    // sensor D delantero al pin 4
 const int sensorIR = 2;          //sensor IR delantero al pin 2
 const int motorIzquierdo = 10;       //servomotor Izquierdo al pin 10
